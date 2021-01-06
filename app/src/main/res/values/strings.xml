@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DeveemApp</string>
+    <string name="main">Главная</string>
+    <string name="favorites">Избранное</string>
+    <string name="add">Подать</string>
+    <string name="chats">Чаты</string>
+    <string name="profile">Профиль</string>
+    <string name="location">Город</string>
+    <string name="item">Товар</string>
+    <string name="quantity">10 кг</string>
+    <string name="kgz">KGZ</string>
+    <string name="prise_size">500</string>
+    <string name="price">Цена</string>
+    <string name="city">Ош</string>
+    <string name="date">6 Январь,2020</string>
+    <string name="call">Позвонить</string>
+    <string name="write">Написать</string>
+    <string name="free">Продаю домашнюю библиотеку, недорого</string>
+    <string name="prises">250</string>
+    <string name="two">2</string>
+</resources>
