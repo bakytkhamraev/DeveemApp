@@ -29,7 +29,7 @@ class DetailActivity : AppCompatActivity() {
         buttonWA.setOnClickListener {
 
             try {
-                val mobile = "+996775413001"
+                val mobile = "+996700413001"
                 val msg = "Здравствуйте,"
                 startActivity(
                     Intent(
@@ -54,7 +54,7 @@ class DetailActivity : AppCompatActivity() {
                 var shareMessage =
                     "\nПозвольте мне порекомендовать вам это приложение\n\n"
                 shareMessage =
-                    shareMessage + "https://play.google.com/store/apps/details?id=com.geektech.print&hl=ru"
+                    shareMessage + "https://play.google.com/store/apps/details?id=com.geektech.printbishkek"
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareMessage)
                 startActivity(Intent.createChooser(shareIntent, "Выберите приложение"))
             } catch (e: java.lang.Exception) {

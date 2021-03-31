@@ -12,13 +12,33 @@
         android:layout_height="wrap_content"
         android:padding="8dp">
 
-        <ImageView
-            android:id="@+id/image"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/imageCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@color/yellow" />
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_vector_star_main" />
+
+        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:id="@+id/price"
@@ -29,8 +49,8 @@
             android:text="@string/price"
             android:textColor="#4D000000"
             android:textSize="14sp"
-            app:layout_constraintStart_toStartOf="@+id/image"
-            app:layout_constraintTop_toBottomOf="@id/image" />
+            app:layout_constraintStart_toStartOf="@+id/imageCardView"
+            app:layout_constraintTop_toBottomOf="@id/imageCardView" />
 
         <TextView
             android:id="@+id/price_size"
@@ -41,7 +61,7 @@
             android:textColor="@color/black"
             android:textSize="14sp"
             android:textStyle="bold"
-            app:layout_constraintStart_toStartOf="@+id/image"
+            app:layout_constraintStart_toStartOf="@+id/imageCardView"
             app:layout_constraintTop_toBottomOf="@id/price" />
 
         <TextView

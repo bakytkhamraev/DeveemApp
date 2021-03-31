@@ -18,4 +18,6 @@
     <string name="free">Продаю домашнюю библиотеку, недорого</string>
     <string name="prises">250</string>
     <string name="two">2</string>
+    <string name="view">просмотров</string>
+    <string name="update">Дата обновления</string>
 </resources>
